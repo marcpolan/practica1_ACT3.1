@@ -6,6 +6,10 @@ class Esqui {
 	int quant_pistes;
 	int forfait;
 
+	Esqui() {
+
+	}
+
 	Esqui(String nom, int altitud, int remuntador, int quant_pistes, int forfait) {
 		this.nom = nom;
 		this.altitud = altitud;
